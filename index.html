@@ -1,269 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OJO AYODELE RAPHEAL</title>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./mediaqueries.css">
-  <script src="./script.js"defer></script>
-</head>
-<body>
-  <nav id="desktop-nav">
-    <div class="logo">OJO AYODELE RAPHEAL</div>
-    <div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#Skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <nav id="hamburger-nav">
-    <div class="logo">OJO AYODELE RAPHEAL</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-      </div>
-    </div>
-  </nav>
-  <section id="profile">
-    <div class="section__pic-container">
-      <img src="assets/website_image.JPG" alt="Ralph profile picture" />
-    </div>
-    <div class="section__text">
-      <p class="section__text__p1">Hello, I'm</p>
-      <h1 class="title">OJO AYODELE RAPHEAL</h1>
-      <p class="section__text__p2">Frontend Developer</p>
-      <div class="btn-container">
-        <button
-          class="btn btn-color-2"
-          onclick="window.open('./assets/Ojo_Ayodele_RaphealWD.doc')"
-        >
-          Download CV
-        </button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">
-          Contact Info
-        </button>
-      </div>
-      <div id="socials-container">
-        <img
-          src="./assets/linkedin.png"
-          alt="My LinkedIn profile"
-          class="icon"
-          onclick="location.href='https://linkedin.com/in/ayodele-rapheal-ojo-17426b12b'"
-        />
-        <img
-          src="./assets/github.png"
-          alt="My Github profile"
-          class="icon"
-          onclick="location.href='https://github.com/ralphdel'"
-        />
-      </div>
-    </div>
-  </section>
-  <section id="about">
-    <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">About Me</h1>
-    <div class="section-container">
-      <div class="section__pic-container">
-        <img
-          src="./assets/experience_img.JPG"
-          alt="Profile picture"
-          class="about-pic"
-        />
-      </div>
-      <div class="about-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <img
-              src="./assets/experience.png"
-              alt="Experience icon"
-              class="icon"
-            />
-            <h3>Skills</h3>
-            <p>Software engineering <br />Frontend Development</p>
-          </div>
-          <div class="details-container">
-            <img
-              src="./assets/education.png"
-              alt="Education icon"
-              class="icon"
-            />
-            <h3>Education</h3>
-            <p>B.Sc. Bachelors Degree</p>
-          </div>
-        </div>
-        <div class="text-container">
-          <p>
-           Hello, I'm Ojo Ayodele Raphael, a dedicated professional holding a BSc in 
-           Industrial Chemistry. As a tech enthusiast, I immerse myself in the world of
-           software development, showcasing a unique blend of analytical thinking 
-           and creative problem-solving. With an insatiable curiosity, I embark on each
-           coding journey with zeal, transforming challenges into opportunities for personal 
-           and professional growth.
-           My portfolio represents more than projects; it mirrors my commitment to excellence,
-           innovative thinking, and a relentless pursuit of knowledge. Beyond the screen,
-           I'm driven by the prospect of contributing to meaningful tech solutions that make 
-           a positive impact. Join me as I continue crafting a future where technology and 
-           creativity converge seamlessly.
-          </p>
-        </div>
-      </div>
-    </div>
-    <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#skills'"
-    />
-  </section>
-  <section id="Skills">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Skills</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Frontend Development</h2>
-          <div class="article-container">
-            <article>
-              <img
-                src="./assets/htmlimage.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/cssimage.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-            
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/javascriptlogo.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-          
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>TypeScript</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Backend Development</h2>
-          <div class="article-container">
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>MySQL</h3>
-                <p>Basic</p>
-              </div>
-            </article>
-            <article>
-              <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <div>
-                <h3>Git</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </div>
-    <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#projects'"
-    />
-  </section>
-  <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#contact'"
-    />
-  </section>
-  <section id="contact">
-    <p class="section__text__p1">Get in Touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-      <div class="contact-info-container">
-        <img
-          src="./assets/email.png"
-          alt="Email icon"
-          class="icon contact-icon email-icon"
-        />
-        <p><a href="mailto:ralphdel14@yahoo.com.com">ralphdel14@yahoo.com</a></p>
-      </div>
-      <div class="contact-info-container">
-        <img
-          src="./assets/linkedin.png"
-          alt="LinkedIn icon"
-          class="icon contact-icon"
-        />
-        <p><a href="https://linkedin.com/in/ayodele-rapheal-ojo-17426b12b">LinkedIn</a></p>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <nav>
-      <div class="nav-links-container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OJO AYODELE RAPHEAL</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaqueries.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">OJO AYODELE RAPHEAL</div>
+      <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
+          <li><a href="#Skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <p>Copyright &#169; 2024 Ojo Ayodele Rapheal. All Rights Reserved.</p>
-  </footer>
-
-
-
-</body>
+    <nav id="hamburger-nav">
+      <div class="logo">OJO AYODELE RAPHEAL</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/website_image.JPG" alt="Ralph profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">OJO AYODELE RAPHEAL</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Ojo_Ayodele_RaphealWD.doc')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/ayodele-rapheal-ojo-17426b12b'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/ralphdel'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/experience_img.JPG"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Skills</h3>
+              <p>Software engineering <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello, I'm Ojo Ayodele Raphael, a dedicated professional holding a
+              BSc in Industrial Chemistry. As a tech enthusiast, I immerse
+              myself in the world of software development, showcasing a unique
+              blend of analytical thinking and creative problem-solving. With an
+              insatiable curiosity, I embark on each coding journey with zeal,
+              transforming challenges into opportunities for personal and
+              professional growth. My portfolio represents more than projects;
+              it mirrors my commitment to excellence, innovative thinking, and a
+              relentless pursuit of knowledge. Beyond the screen, I'm driven by
+              the prospect of contributing to meaningful tech solutions that
+              make a positive impact. Join me as I continue crafting a future
+              where technology and creativity converge seamlessly.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="Skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/htmlimage.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Intermediate</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/cssimage.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Intermediate</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/javascriptlogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Intermediate</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/typescriptlogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Intermediate</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/reactnewlogo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Intermediate</h4>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/nodejsnew.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Intermediate</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/gitlogonew.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Intermediate</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/djangologonew.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Intermediate</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/mysqllogonew.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Basic</h4>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:ralphdel14@yahoo.com.com">ralphdel14@yahoo.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://linkedin.com/in/ayodele-rapheal-ojo-17426b12b"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Ojo Ayodele Rapheal. All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
